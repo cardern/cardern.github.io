@@ -1,288 +1,251 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Colin Ardern- Portfolio</title>
-
-    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Colin Ardern: Resume/Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="stylesheets/styles.css" rel="stylesheet">
+    <link href="stylesheets/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-12490711-7', 'auto');
-      ga('send', 'pageview');
-  </script>
 </head>
 
-<body id="page-top" class="index">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#page-top">Colin Ardern</a>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Colin Ardern</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a id="navbar-contact" href="#contact">Contact Me</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </nav>
+    <div id="intro" class="container text-center">
+        <div class="col-md-12 crt vertical-center">
+            <h1 class="hello">Hello, I'm Colin.</h1>
+            <h1 class="blinking">&nbsp|</h1>
+        </div>
+    </div>
+    <div id="about" class="container text-center padding">
+        <div class="col-md-6">
+            <img src="img/headshot.jpg" class="text-right margin-bottom responsive-img">
+        </div>
+        <div class="col-md-6 col-xs-offset-2 col-md-offset-0 text-left">
+            <h1>About</h1>
+            <div class="spacer-about"></div>
+            <div>
+                <h3>I like to make websites.</h3>
+                <p>Experienced with most kinds of technology. Ability to figure it out if not.</p>
+                <p>Full CV available on request.</p>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
+        </div>
+    </div>
+    <div id="projects" class="container text-center padding">
+        <h1>Projects</h1>
+        <div class="spacer"></div>
+        <br>
+        <br>
+        <div class="text-left">
+            <row>
+                <div class="col-md-6">
+                    <div class="col-md-12 project-box">
+                        <div class="col-sm-6">
+                            <h3>Custom Binder Clips</h3>
+                            <h4><b>Role:</b> Developer & Designer</h4>
+                            <p>
+                                Custom Clips are a form of promotional advertising that allow logos, photos, or text to be displayed on the sides of a binder clip.
+                            </p>
+                        </div>
+                        <div class="btn view-project"><a href="http://custombinderclips.com">View Project</a></div>
+                        <div class="col-sm-6">
+                            <a href="http://custombinderclips.com"><img src="img/proj1.jpg" class="project-img"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="col-md-12 project-box">
+                        <div class="col-sm-6">
+                            <h3>WPTax</h3>
+                            <h4><b>Role:</b> Developer & Designer</h4>
+                            <p>
+                                Wisconsin Property Tax Consultants, Inc. is a property tax consulting firm located in Milwaukee, WI. They have a wide variety of commercial clients across the state.
+                            </p>
+                        </div>
+                        <div class="btn view-project"><a href="http://wptax.com">View Project</a></div>
+                        <div class="col-sm-6">
+                            <a href="http://wptax.com"><img src="img/proj2.jpg" class="project-img"></a>
+                        </div>
+                    </div>
+                </div>
+            </row>
+            <row>
+                <div class="col-md-6">
+                    <div class="col-md-12 project-box">
+                        <div class="col-sm-6">
+                            <h3>Hedfon.es</h3>
+                            <h4><b>Role:</b> Developer & Designer</h4>
+                            <p>
+                                Allows users to choose a new pair of headphones based on personal criteria.
+                            </p>
+                        </div>
+                        <div class="btn view-project"><a href="http://hedfon.es/">View Project</a></div>
+                        <div class="col-sm-6">
+                            <a href="http://hedfon.es/"><img src="img/proj3.jpg" class="project-img"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="col-md-12 project-box">
+                        <div class="col-sm-6">
+                            <h3>Restaurant Selector</h3>
+                            <h4><b>Role:</b> Developer & Designer</h4>
+                            <p>
+                                A tool for Mequon locals to decide what's for dinner with the click of a button.
+                            </p>
+                        </div>
+                        <div class="btn view-project"><a href="http://www.colin.im/restaurant/">View Project</a></div>
+                        <div class="col-sm-6">
+                            <a href="http://www.colin.im/restaurant/"><img src="img/proj4.jpg" class="project-img"></a>
+                        </div>
+                    </div>
+                </div>
+            </row>
+            <row>
+                <div class="col-md-6">
+                    <div class="col-md-12 project-box">
+                        <div class="col-sm-6">
+                            <h3>D3Experiments</h3>
+                            <p>
+                                Learning to use D3.js by visualizing Google Trends data to answer the important questions.
+                            </p>
+                        </div>
+                        <div class="btn view-project"><a href="http://www.colin.im/d3experiments/">View Project</a></div>
+                        <div class="col-sm-6">
+                            <a href="http://www.colin.im/d3experiments/"><img src="img/proj5.jpg" class="project-img"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="col-md-12 project-box">
+                        <div class="col-sm-6">
+                            <h3>Blog</h3>
+                            <p>
+                                Personal blog made using Jekyll to collect what I am learning and remember it in the future.
+                            </p>
+                        </div>
+                        <div class="btn view-project"><a href="http://www.colin.im/blog/">View Project</a></div>
+                        <div class="col-sm-6">
+                            <a href="http://www.colin.im/blog/"><img src="img/proj6.jpg" class="project-img"></a>
+                        </div>
+                    </div>
+                </div>
+            </row>
+        </div>
+    </div>
+    <div id="experience" class="container text-center padding">
+        <div class="col-md-4">
+            <h1>Education</h1>
+            <div class="spacer"></div>
+            <row>
+                <div class="margin-bottom">
+                    <h3>Washington University in <br>St. Louis</h3>
+                    <h4>BSBA - <b>Graduated</b>: 2012</h4>
+                    <p>Majors in Finance, Marketing, and International Business, with a minor in Computer Science.
+                    </p>
+                    <p>Member of Tau Kappa Epsilon, GPA: 3.8/4.0</p>
+                </div>
+            </row>
+        </div>
+        <div class="col-md-8">
+            <h1>Experience</h1>
+            <div class="spacer"></div>
+            <div class="col-md-6 margin-bottom">
+                <h3>Epic Systems</h3>
+                <h4>2012-2015</h4>
+                <p>Provided technical support for Epic applications involving extensive work in troubleshooting, programming, and customer service for multiple healthcare clients including John Muir Health, Renown Health, Inova Health System, and Cambridge University Hospitals.
+                </p>
+                <p>Wrote and executed test plans and identified over 500 bugs based on the results. Created custom test plan tracker using VBA in Excel for use by ADT QA team to log regression script run data.</p>
+            </div>
+            <div class="col-md-6 margin-bottom">
+                <h3>The Walt Disney Co.</h3>
+                <h4>2011</h4>
+                <p>Prepared all international digital sales data in Excel for integration with Mediamorph. Updated deal tracking sheets for a number of clients with buys and license fees, and reconciled numerous sheets to find errors.</p>
+                <p>Analyzed performance data across recent box office releases in every European country and determined effectiveness of day and date release system versus separate DVD and video on demand releases, with results being used in release decisions.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="container text-center padding">
+        <h1>Contact Me</h1>
+        <div class="spacer-white"></div>
+        <br>
+        <row>
+            <div class="col-xs-6 col-md-3 col-md-offset-3">
+                <h4 class="contact-message">I'd love to hear from you. For real, send me a message.</h4>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <div class="btn btn-default btn-lg email-button"><a class='send-now'>Email Me</a></div>
+            </div>
+        </row>
+        <row>
+            <div class="col-xs-12 text-center">
+                <br>
+                <h4 class="email-address"></h4>
+            </div>
+        </row>
+        <row>
+            <div class="col-xs-12">
+                <div class="spacer-white"></div>
+            </div>
+        </row>
+        <row>
+            <div class="col-xs-12">
+                <ul class="list-inline">
+                    <li>
+                        <a href="https://www.facebook.com/colin.ardern" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
+                    <li>
+                        <a href="https://twitter.com/cardern" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="blog/">Blog</a>
+                    <li>
+                        <a href="http://lnkd.in/bB-F_5j" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
+                    <li>
+                        <a href="https://github.com/cardern" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
                     </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.jpg" alt="">
-                    <div class="intro-text">
-                        <span class="name">Hi, I'm Colin</span>
-                        <h2>I like to make websites.</h2><br>
-                        <hr class="star-light">
-                        <div class="col-lg-4 col-lg-offset-2">
-                            <h3>Testimonials</h3>
-                        </div>
-                        <div class="col-lg-6 text-left">
-                            <p>"A pretty cool guy" - Anonymous</p>
-                            <p>"A very considerate young man" - Colin's Mother</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/WPTax.PNG" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/CustomBinderClip.PNG" class="img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="success" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Contact</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-4">
-                    <p>I am currently working on expanding my portfolio. Let me know if you have a unique or challenging project idea and I would be happy to consider contributing.</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="mailto:cardern@gmail.com" class="btn btn-lg btn-outline">Email Me</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-12">
-                        <h3>Around the Web</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="https://www.facebook.com/colin.ardern" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/cardern" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="http://lnkd.in/bB-F_5j" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/cardern" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visble-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
+        </row>
     </div>
-
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>WPTax.com</h2>
-                            <hr class="star-primary">
-                            <a href="http://wptax.com"><img src="img/portfolio/WPTax.PNG" class="img-responsive img-centered" alt=""></a>
-                            <p>Wisconsin Property Tax Consultants, Inc. is a property tax consulting firm located in Milwaukee, WI. They have a wide variety of commercial clients across the state.</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><b>WPTC</b>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><b>2009-Present</b>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><b>Web Development and Design</b>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>CustomBinderClip.com</h2>
-                            <hr class="star-primary">
-                            <a href="http://custombinderclip.com"><img src="img/portfolio/CustomBinderClip.PNG" class="img-responsive img-centered" alt=""></a>
-                            <p>Custom Clips are a unique new form of promotional advertising that allow logos, photographs, text, or any other four color graphic to be displayed on the sides of a binder clip.</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><b>Custom Binder Clips</b>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><b>2010-Present</b>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><b>Web Development and Design</b>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- jQuery Version 1.11.0 -->
-    <script src="js/jquery-1.11.0.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/freelancer.js"></script>
-
+    <!-- jQuery -->
+    <script src="javascripts/jquery-1.11.2.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="javascripts/application.js"></script>
+    <script src="javascripts/nav.js"></script>
 </body>
 
 </html>
