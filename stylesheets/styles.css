@@ -8769,73 +8769,74 @@ h1 {
 /* line 174, ../sass/styles.scss */
 .project-img {
   height: auto;
+  max-height: 90%;
+  max-width: 80%;
   top: 30px;
   right: 10px;
-  max-width: 80%;
   position: absolute;
   border: 1px solid #eeeeee;
 }
 
 @media all and (max-width: 768px) {
-  /* line 184, ../sass/styles.scss */
+  /* line 185, ../sass/styles.scss */
   .project-img {
     visibility: hidden;
   }
 
-  /* line 187, ../sass/styles.scss */
+  /* line 188, ../sass/styles.scss */
   .project-box {
     height: auto;
   }
 
-  /* line 190, ../sass/styles.scss */
+  /* line 191, ../sass/styles.scss */
   .project-box > div h3 {
     padding-top: 15px;
   }
 
-  /* line 193, ../sass/styles.scss */
+  /* line 194, ../sass/styles.scss */
   .view-project {
     position: relative;
     margin-top: 20px;
   }
 }
 @media all and (max-width: 991px) {
-  /* line 200, ../sass/styles.scss */
+  /* line 201, ../sass/styles.scss */
   .project-img {
     max-width: 60%;
   }
 }
-/* line 206, ../sass/styles.scss */
+/* line 207, ../sass/styles.scss */
 #contact {
   background: #5cb85c;
   color: white;
 }
 
-/* line 211, ../sass/styles.scss */
+/* line 212, ../sass/styles.scss */
 .spacer-white {
   background: white;
 }
 
-/* line 216, ../sass/styles.scss */
+/* line 217, ../sass/styles.scss */
 .email-button {
   width: 150px;
 }
 
-/* line 220, ../sass/styles.scss */
+/* line 221, ../sass/styles.scss */
 .send-now, .send-now:hover {
   color: black;
 }
 
-/* line 224, ../sass/styles.scss */
+/* line 225, ../sass/styles.scss */
 .send-now:hover {
   text-decoration: none;
 }
 
-/* line 229, ../sass/styles.scss */
+/* line 230, ../sass/styles.scss */
 .contact-message {
   margin-top: 0;
 }
 
-/* line 233, ../sass/styles.scss */
+/* line 234, ../sass/styles.scss */
 .btn-social {
   display: inline-block;
   width: 50px;
@@ -8847,7 +8848,7 @@ h1 {
   line-height: 45px;
 }
 
-/* line 244, ../sass/styles.scss */
+/* line 245, ../sass/styles.scss */
 .btn-outline {
   margin-top: 15px;
   border: solid 2px #fff;
