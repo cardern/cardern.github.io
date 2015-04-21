@@ -8769,7 +8769,7 @@ h1 {
 /* line 174, ../sass/styles.scss */
 .project-img {
   height: auto;
-  max-height: 90%;
+  max-height: 250px;
   max-width: 80%;
   top: 30px;
   right: 10px;
