@@ -12,6 +12,15 @@ h1 {
     position: relative;
 }
 
+.green{
+    color: $brand-success;
+    font-weight: bold;
+}
+
+.green:hover{
+    text-decoration: none;
+}
+
 .container {
     width: 100%;
 }
