@@ -34,7 +34,7 @@ $(document).ready(function() {
 
     //Email population - to defeat spambots
 
-    var email1 = "cardern";
+    var email1 = "cardern+hi";
     var email2 = "@";
     var email3 = "gmail.com";
     var email4 = email1 + email2 + email3;
