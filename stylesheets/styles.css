@@ -8650,7 +8650,9 @@ h1 {
 }
 /* line 77, ../sass/styles.scss */
 #intro {
-  background: #5cb85c;
+  background: #003366;
+  color: #ffffff;
+  margin-bottom: 0px;
 }
 
 /* line 81, ../sass/styles.scss */
@@ -8742,6 +8744,7 @@ h1 {
 /* line 151, ../sass/styles.scss */
 #projects {
   background: #eeeeee;
+  padding-left: 20px;
 }
 
 /* line 155, ../sass/styles.scss */
@@ -8819,8 +8822,8 @@ h1 {
 }
 /* line 217, ../sass/styles.scss */
 #contact {
-  background: #5cb85c;
-  color: white;
+  background: #003366;
+  color: #ffffff;
 }
 
 /* line 222, ../sass/styles.scss */
