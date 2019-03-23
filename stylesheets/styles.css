@@ -8747,6 +8747,11 @@ h1 {
   padding-left: 20px;
 }
 
+#writing {
+  background: #bebebe;
+  padding-left: 20px;
+}
+
 /* line 155, ../sass/styles.scss */
 .project-box {
   background: white;
